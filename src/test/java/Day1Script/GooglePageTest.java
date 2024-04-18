@@ -9,6 +9,7 @@ public class GooglePageTest {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
+		System.out.println("page title is :" + driver.getTitle());
 		
 
 	}
