@@ -12,7 +12,7 @@ public class MouseAction {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://stqatools.com/demo/DoubleClick.php");
-		WebElement btn= driver.findElement(By.xpath("//button[text()='Click Me / Double Click Me!']"));
+	//	WebElement btn= driver.findElement(By.xpath("//button[text()='Click Me / Double Click Me!']"));
 		
 
 	}

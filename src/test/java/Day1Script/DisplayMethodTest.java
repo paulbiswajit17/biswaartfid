@@ -1,6 +1,7 @@
 package Day1Script;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +16,7 @@ public class DisplayMethodTest {
 		System.out.println("page title is :" + driver.getTitle());
 		driver.findElement(By.id("searchBar")).sendKeys("Test");
 		
-		
+		TakesScreenshot screen = (TakesScreenshot)driver;
 		
 	//	String strplaceholder= driver.findElement(By.id("searchBar").)
 		
