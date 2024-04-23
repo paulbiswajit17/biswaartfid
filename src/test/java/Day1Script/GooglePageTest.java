@@ -25,7 +25,7 @@ public class GooglePageTest {
 		WebElement srcbox= driver.findElement(By.tagName("textarea"));
 		srcbox.sendKeys("Hello");
 		srcbox.sendKeys(Keys.ENTER);
-		
+		System.out.println("page title is :" + driver.getTitle());
 		
 		
 		
