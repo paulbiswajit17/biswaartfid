@@ -15,10 +15,12 @@ public class DisplayMethodTest {
 		System.out.println("page title is :" + driver.getTitle());
 		driver.findElement(By.id("searchBar")).sendKeys("Test");
 		
-		String strplaceholder= driver.findElement(By.id("searchBar").)
 		
-		WebElement CloseIcon= driver.findElement(By.cssSelector("a[title='Clear text']"));
-		System.out.println(CloseIcon.isDisplayed());
+		
+	//	String strplaceholder= driver.findElement(By.id("searchBar").)
+		
+	//	WebElement CloseIcon= driver.findElement(By.cssSelector("a[title='Clear text']"));
+	//	System.out.println(CloseIcon.isDisplayed());
 		{
 			if (CloseIcon.isDisplayed())
 				CloseIcon.click();		
