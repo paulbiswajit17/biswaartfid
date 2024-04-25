@@ -8,12 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class DropDownTest {
 
-	/**
-	 * @param args
-	 */
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) 
 	{
 		WebDriver driver=new ChromeDriver();
